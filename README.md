@@ -1,16 +1,19 @@
-## Hi there 👋
+## Hi👋, I'm Raghav
+I'm studying CS + Stats @ UIUC. 
 
-<!--
-**Raghavsk24/Raghavsk24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I enjoy building AI software and robots that make automate work, so we can enjoy the fun stuff that life has to offer. I also write blogs about every project that I've built on **[Medium](https://medium.com/@senthilkumaraghav)**. Feel free to like and comment 😁
 
-Here are some ideas to get you started:
+<a href="mailto:senthilkumaraghav@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/raghav-senthil-kumar/">
+  <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://x.com/Raghav_sk24">
+  <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" />
+</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+
+
