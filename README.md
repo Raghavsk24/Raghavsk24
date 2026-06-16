@@ -1,7 +1,7 @@
 ## Hi👋, I'm Raghav
 I'm studying CS + Stats @ UIUC. 
 
-I enjoy building AI software and robots that make automate work, so we can enjoy the fun stuff that life has to offer. I also write blogs about every project that I've built on **[Medium](https://medium.com/@senthilkumaraghav)**. Feel free to like and comment 😁
+I enjoy building AI software and robots that automate work, so we can enjoy the fun stuff that life has to offer. I also write blogs about every project that I've built on **[Medium](https://medium.com/@senthilkumaraghav)**. Feel free to like and comment 😁
 
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:senthilkumaraghav@gmail.com) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/raghav-senthil-kumar) 
@@ -10,7 +10,7 @@ I enjoy building AI software and robots that make automate work, so we can enjoy
 
 
 ## Featured Projects
-- **[EcoBin:](https://arxiv.org/abs/2606.15547v1)** AI-Powered Smart Bin that uses a deep convolutional neural network (EfficientNetV2-S) to autonomously sort waste items into an appropriate disposal pathway. EcoBin also has a 2nd CNN layer that can detect contamination in recyclable waste items.
+- **[EcoBin:](https://arxiv.org/abs/2606.15547v1)** AI-Powered Smart Bin that uses a deep convolutional neural network (EfficientNetV2-S) to autonomously sort waste items into an appropriate disposal pathway. EcoBin also has a 2nd CNN layer that can detect contamination in recyclable waste objects.
 - **[Chronos:](usechronos.live)** Full-Stack Scheduling Agent that automatically books meetings for large groups on Google Calendar using a multi-factor scoring algorithm that accounts for differences in time zones *[Chronos won the 2025 Congressional App Challenge (AZ-08).](https://hamadeh.house.gov/news/documentsingle.aspx?DocumentID=360)*
 - **[Citation Chain:](https://citation-chain-two.vercel.app/)** Interactive Citation Graph that maps existing literature in your research domain, generates in-depth summaries for your papers and deploys an AI Assistant (Claude Sonnet 4.6) that uses retrieval-augmented generation to answer your questions.
 - **[2026 NBA Finals Predictor:](https://2026-nba-finals-predictor.vercel.app/)** Live Sports Statistics Dashboard that runs 10,000 Monte Carlo simulations across three independent prediction models to forecast the outcome of the 2026 NBA finals between the San Antonio Spurs and New York Knicks. 
