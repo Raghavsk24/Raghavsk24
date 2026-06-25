@@ -10,7 +10,7 @@ I enjoy building AI software and robots that automate work, so we can enjoy the 
 
 
 ## Featured Projects
-- **[EcoBin:](https://arxiv.org/abs/2606.15547v1)** AI-Powered Smart Bin that uses a deep convolutional neural network (EfficientNetV2-S) to autonomously sort waste items into an appropriate disposal pathway. EcoBin also has a 2nd CNN layer that can detect contamination in recyclable waste objects.
+- **[EcoBin:](https://arxiv.org/abs/2606.15547v1)** AI-Powered Smart Bin that uses a deep convolutional neural network (EfficientNetV2-S) to autonomously sort waste items into an appropriate disposal pathway. EcoBin can also detect contamination in recyclable waste objects. You can view the pre-print on [arXiv](https://arxiv.org/abs/2606.15547).
 - **[Chronos:](usechronos.live)** Full-Stack Scheduling Agent that automatically books meetings for large groups on Google Calendar using a multi-factor scoring algorithm that accounts for differences in time zones *[Chronos won the 2025 Congressional App Challenge (AZ-08).](https://hamadeh.house.gov/news/documentsingle.aspx?DocumentID=360)*
 - **[Citation Chain:](https://citation-chain-two.vercel.app/)** Interactive Citation Graph that maps existing literature in your research domain, generates in-depth summaries for your papers and deploys an AI Assistant (Claude Sonnet 4.6) that uses retrieval-augmented generation to answer your questions.
 - **[2026 NBA Finals Predictor:](https://2026-nba-finals-predictor.vercel.app/)** Live Sports Statistics Dashboard that runs 10,000 Monte Carlo simulations across three independent prediction models to forecast the outcome of the 2026 NBA finals between the San Antonio Spurs and New York Knicks. 
