@@ -10,6 +10,7 @@ I enjoy building AI software and robots that automate work, so we can enjoy the 
 
 
 ## Featured Projects
+- [School Pulse AI](https://school-pulse-ai.vercel.app/) Suite of 3 independent edge AI tools that helps a school visualize its environmental footprint and delivers actionable steps to reduce it through an ElevenLabs voice agent. Built as part of the [2026 USAII Global AI Hackathon](https://devpost.com/software/schoolprint-ai). 
 - **[EcoBin:](https://arxiv.org/abs/2606.15547v1)** AI-Powered Smart Bin that uses a neural network (EfficientNetV2-S) to autonomously sort waste items into an appropriate disposal pathway. EcoBin can also detect contamination in recyclable waste objects. You can view the pre-print on [arXiv](https://arxiv.org/abs/2606.15547).
 - **[Chronos:](usechronos.live)** Full-Stack Scheduling Agent that automatically books meetings for large groups on Google Calendar using a multi-factor scoring algorithm that accounts for differences in time zones *[Chronos won the 2025 Congressional App Challenge (AZ-08).](https://hamadeh.house.gov/news/documentsingle.aspx?DocumentID=360)*
 - **[Citation Chain:](https://citation-chain-two.vercel.app/)** Interactive Citation Graph that maps existing literature in your research domain, generates in-depth summaries for your papers and deploys an AI Assistant (Claude Sonnet 4.6) that uses retrieval-augmented generation to answer your questions.
