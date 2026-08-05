@@ -1,7 +1,7 @@
 ## Hi👋, I'm Raghav
 I'm studying CS + Stats @ UIUC. 
 
-I enjoy building AI software and robots that automate work, so we can enjoy the fun stuff that life has to offer. I also write blogs about every project that I've built on **[Medium](https://medium.com/@senthilkumaraghav)**. Feel free to like and comment 😁
+I enjoy building AI software and robots that automate work, so we can enjoy the fun stuff that life has to offer. 
 
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:senthilkumaraghav@gmail.com) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/raghav-senthil-kumar) 
