@@ -8,7 +8,7 @@ I'm studying CS + Stats @ UIUC. I'm interested in computer vision, robotics, AI 
 
 
 ## Featured Projects
-- **[Truck Pricing VLM:](https://truck-pricing-vlm.vercel.app/)** VLM-based pricing algorithm from user-uploaded images of trucks that generates an appraisal report: truck value, condition assesment and detailed statement of reasoning. Won *2nd at 2026 UIUC Founder's Hackathon (Kamion YC S22 Track)*
+- **[Truck Pricing VLM:](https://truck-pricing-vlm.vercel.app/)** VLM-based pricing algorithm from user-uploaded images of trucks that generates an appraisal report: truck value, condition assesment and detailed statement of reasoning. Won *2nd at 2026 UIUC Founder's Hackathon (Kamion YC S22)*
 - **[School Pulse AI:](https://school-pulse-ai.vercel.app/)** Suite of 3 independent edge AI tools that helps a school visualize its environmental footprint and delivers actionable steps to reduce it through an ElevenLabs voice agent. Built as part of the *[2026 USAII Global AI Hackathon](https://devpost.com/software/schoolprint-ai)*. 
 - **[EcoBin:](https://arxiv.org/abs/2606.15547v1)** AI-Powered Smart Bin that uses a neural network (EfficientNetV2-S) to autonomously sort waste items into an appropriate disposal pathway. EcoBin can also detect contamination in recyclable waste objects. You can view the pre-print on *[arXiv](https://arxiv.org/abs/2606.15547)*.
 - **[Chronos:](https://usechronos.live/)** Full-Stack Scheduling Agent that automatically books meetings for large groups on Google Calendar using a multi-factor scoring algorithm that accounts for differences in time zones *[Chronos won the 2025 Congressional App Challenge (AZ-08).](https://hamadeh.house.gov/news/documentsingle.aspx?DocumentID=360)*
