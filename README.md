@@ -1,5 +1,5 @@
 ## Hi👋, I'm Raghav
-I'm studying CS + Stats @ UIUC. I'm interested in computer vision, robotics, AI Alignment and LLM automations. 
+I'm studying CS + Stats @ UIUC. I'm interested in computer vision, robotics and LLM automations. 
 
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:senthilkumaraghav@gmail.com) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/raghav-senthil-kumar) 
