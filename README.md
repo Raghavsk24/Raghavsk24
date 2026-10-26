@@ -1,9 +1,10 @@
 ## Hi👋, I'm Raghav
-I'm studying CS + Stats @ UIUC. I'm currently building an MCP toolkit for **AgentPhone (YC S26)** that enable agents to autonomously place calls and send texts. My interests include AI safety, LLM automations and robotics.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-card-dark.svg">
+  <img src="assets/profile-card-light.svg" alt="Cumulative Claude tokens used and facts about me" width="100%">
+</picture>
 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:senthilkumaraghav@gmail.com) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/raghav-senthil-kumar) 
-[![X](https://img.shields.io/badge/-%23000000.svg?logo=X&logoColor=white)](https://x.com/Raghav_sk24)
+I'm studying CS + Stats @ UIUC. I'm currently building an MCP toolkit for **AgentPhone (YC S26)** that enable agents to autonomously place calls and send texts. My interests include AI safety, LLM automations and robotics.
 
 
 
