@@ -4,9 +4,6 @@
   <img src="assets/profile-card-light.svg" alt="Cumulative Claude tokens used and facts about me" width="100%">
 </picture>
 
-I'm studying CS + Stats @ UIUC. I'm currently building an MCP toolkit for **AgentPhone (YC S26)** that enable agents to autonomously place calls and send texts. My interests include AI safety, LLM automations and robotics.
-
-
 
 ## Featured Projects
 - **[Truck Pricing VLM:](https://truck-pricing-vlm.vercel.app/)** VLM-based pricing algorithm that generates an appraisal report: truck value, condition assesment and detailed statement of reasoning from user-uploaded images. Placed *2nd at 2026 UIUC Founder's Hackathon (Kamion YC S22)*
