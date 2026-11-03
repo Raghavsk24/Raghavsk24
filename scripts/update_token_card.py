@@ -91,16 +91,6 @@ def fmt(millions):
     return f"{millions / 1000:.2f}B" if millions >= 1000 else f"{millions:.0f}M"
 
 
-# Picks a round gridline step so three lines cover the data.
-def grid_step(top):
-    mag = 1
-    while True:
-        for m in (1, 2, 2.5, 4, 5):
-            if m * mag * 3.2 >= top:
-                return m * mag
-        mag *= 10
-
-
 # Draws the graph and facts as one SVG card.
 def render(history, facts, c):
     first = dt.date.fromisoformat(min(history))
@@ -109,9 +99,7 @@ def render(history, facts, c):
     totals = list(accumulate(history.get(d.isoformat(), 0) / 1e6 for d in days))
 
     x0, x1, top, base = 90, 410, 50, 172
-    step = grid_step(totals[-1])
-    gridlines = [step * i for i in range(4)]
-    vmax = max(gridlines[-1], totals[-1]) * 1.12
+    vmax = max(2000, -(-int(totals[-1]) // 500) * 500)  # 2B, grows only once usage passes it
     n = len(days)
     xs = [round(x0 + i * (x1 - x0) / max(n - 1, 1), 1) for i in range(n)]
 
@@ -122,9 +110,11 @@ def render(history, facts, c):
     labeled = {i for i in range(0, n, every) if n - 1 - i >= every / 2} | {n - 1}
 
     out = ['  <text x="36" y="26">Token usage</text>']
-    for g in gridlines:
-        out.append(f'  <line x1="{x0 - 10}" y1="{y(g)}" x2="{x1 + 10}" y2="{y(g)}" class="grid"/>')
-        out.append(f'  <text x="{x0 - 18}" y="{y(g) + 4}" class="muted sm" text-anchor="end">{fmt(g) if g else "0"}</text>')
+    for g in range(0, vmax + 1, 100):
+        out.append(f'  <line x1="{x0 - 14}" y1="{y(g)}" x2="{x0 - 10}" y2="{y(g)}" class="tick"/>')
+        if g % 500 == 0:
+            out.append(f'  <line x1="{x0 - 10}" y1="{y(g)}" x2="{x1 + 10}" y2="{y(g)}" class="grid"/>')
+            out.append(f'  <text x="{x0 - 18}" y="{y(g) + 4}" class="muted sm" text-anchor="end">{fmt(g) if g else "0"}</text>')
     pts = " ".join(f"{x},{y(v)}" for x, v in zip(xs, totals))
     out.append(f'  <polygon points="{xs[0]},{base} {pts} {xs[-1]},{base}" fill="{c["line"]}" fill-opacity="0.1"/>')
     out.append(f'  <polyline points="{pts}" fill="none" stroke="{c["line"]}" stroke-width="2" stroke-linejoin="round"/>')
