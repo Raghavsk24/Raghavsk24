@@ -21,7 +21,7 @@ FACTS = [
     ("Age", "18"),
     ("School", "UIUC"),
     ("Coding Agent", None),
-    ("Current", "AgentPhone (YC S26)"),
+    ("Current", "AgentPhone (YC P26)"),
     ("Previous", "Clusion, Jetson"),
     ("Interests", "Alignment, Agents, Robotics, Chess"),
 ]
