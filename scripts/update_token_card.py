@@ -78,8 +78,8 @@ def update_history():
             history[day] = max(history.get(day, 0), total)
     last_week = (this_week - dt.timedelta(weeks=1)).isoformat()
     model = top_model(models.get(last_week, {}))
-    if model:
-        agent = {"week": last_week, "model": model}
+    if model and not agent.get("pinned"):
+        agent ={"week": last_week, "model": model}
     DATA.parent.mkdir(exist_ok=True)
     DATA.write_text(json.dumps(dict(sorted(history.items())), indent=2) + "\n")
     AGENT.write_text(json.dumps(agent, indent=2) + "\n")
